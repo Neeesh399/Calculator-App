@@ -1,0 +1,236 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="Merlino.example.Calculator.SecondPage">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10sp"
+        android:layout_marginStart="10sp"
+        android:layout_marginEnd="10sp">
+
+
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+
+            <Button
+                android:id="@+id/btnCalculator"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="220dp"
+                android:layout_marginTop="15dp"
+                android:orientation="horizontal"
+                android:text="Calculator"
+                android:textSize="12sp"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintTop_toTopOf="parent" />
+
+            <TextView
+                android:id="@+id/AreaFormulasView"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Area Formulas:"
+                android:textSize="16sp"
+                android:textColor="@android:color/black"
+                android:layout_marginLeft="5dp"
+                />
+                <TextView
+                    android:id="@+id/ParallelogramAreaView"
+                    android:layout_marginTop="5dp"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Parallelogram/Square/Rectangle Area: Base * Height"
+                    android:textSize="14sp"
+                    android:textColor="@android:color/black"
+                    android:layout_marginLeft="25dp"
+                />
+                <TextView
+                    android:id="@+id/TriangleAreaView"
+                    android:layout_marginTop="5dp"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Triangle Area: 1/2 * Base * Height"
+                    android:textSize="14sp"
+                    android:textColor="@android:color/black"
+                    android:layout_marginLeft="25dp"
+                    />
+                <TextView
+                    android:id="@+id/CircleAreaView"
+                    android:layout_marginTop="5dp"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Circle Area: PI * r^2"
+                    android:textSize="14sp"
+                    android:textColor="@android:color/black"
+                    android:layout_marginLeft="25dp"
+                    />
+                <TextView
+                    android:id="@+id/TrapezoidAreaView"
+                    android:layout_marginTop="5dp"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Trapezoid Area: 1/2 * (Upper Base + Lower) * Height"
+                    android:textSize="14sp"
+                    android:textColor="@android:color/black"
+                    android:layout_marginLeft="25dp"
+                    />
+            <TextView
+                android:id="@+id/VolumeFormulasView"
+                android:layout_marginTop="15dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Volume Formulas:"
+                android:textSize="16sp"
+                android:textColor="@android:color/black"
+                android:layout_marginLeft="5dp"
+                />
+                <TextView
+                    android:id="@+id/CubeVolumeView"
+                    android:layout_marginTop="5dp"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Cube Volume: Base * Height * Width"
+                    android:textSize="14sp"
+                    android:textColor="@android:color/black"
+                    android:layout_marginLeft="25dp"
+                    />
+                <TextView
+                    android:id="@+id/SphereVolumeView"
+                    android:layout_marginTop="5dp"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Sphere Volume: 4/3 * PI * r^3"
+                    android:textSize="14sp"
+                    android:textColor="@android:color/black"
+                    android:layout_marginLeft="25dp"
+                    />
+                <TextView
+                    android:id="@+id/CylinderVolumeView"
+                    android:layout_marginTop="5dp"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Cylinder Volume: PI * r^3 * Height"
+                    android:textSize="14sp"
+                    android:textColor="@android:color/black"
+                    android:layout_marginLeft="25dp"
+                    />
+                <TextView
+                    android:id="@+id/TriangularPrismVolumeView"
+                    android:layout_marginTop="5dp"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Triangular Prism Volume: Base * Height * Length * 1/2"
+                    android:textSize="14sp"
+                    android:textColor="@android:color/black"
+                    android:layout_marginLeft="25dp"
+                    />
+                <TextView
+                    android:id="@+id/PyramidVolumeView"
+                    android:layout_marginTop="5dp"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Pyramid Volume: Length * Width * Height * 1/3"
+                    android:textSize="14sp"
+                    android:textColor="@android:color/black"
+                    android:layout_marginLeft="25dp"
+                    />
+                <TextView
+                    android:id="@+id/ConeVolumeView"
+                    android:layout_marginTop="5dp"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Cone Volume: PI * r^2 * Height * 1/3"
+                    android:textSize="14sp"
+                    android:textColor="@android:color/black"
+                    android:layout_marginLeft="25dp"
+                    />
+
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="15dp"
+                android:text="Imperial/Metric Temperature Conversions: "
+                android:textSize="16sp"
+                android:layout_marginLeft="5dp"
+                android:textColor="@android:color/black" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="5dp"
+                    android:text="Celsius to Fahrenheit: (9/5 * C) + 32"
+                    android:textSize="14sp"
+                    android:layout_marginLeft="25dp"
+                    android:textColor="@android:color/black" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="5dp"
+                    android:text="Fahrenheit to Celsius: 5/9 * (F - 32)"
+                    android:textSize="14sp"
+                    android:layout_marginLeft="25dp"
+                    android:textColor="@android:color/black" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="15dp"
+                android:text="Imperial/Metric Distance Conversions: "
+                android:textSize="16sp"
+                android:layout_marginLeft="5dp"
+                android:textColor="@android:color/black"
+                />
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="132dp"
+                android:src="@drawable/impmetricchart" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="15dp"
+                android:textSize="16sp"
+                android:text="Imperial Conversions:"
+                android:layout_marginLeft="5dp"
+                android:textColor="@android:color/black"
+                />
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="110dp"
+                android:src="@drawable/imp" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="15dp"
+                android:textSize="16sp"
+                android:text="Metric Conversions:"
+                android:layout_marginLeft="5dp"
+                android:textColor="@android:color/black"
+                />
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="108dp"
+                android:src="@drawable/metric" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+
+        </LinearLayout>
+
+    </RelativeLayout>
+
+</ScrollView>
